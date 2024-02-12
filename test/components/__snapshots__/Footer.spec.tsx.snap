@@ -1,0 +1,27 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Footer > should render properly 1`] = `
+<div>
+  <footer
+    class="css-mtlhd8"
+    data-component-name="Box"
+  >
+    <div
+      class="css-fd9se2"
+      data-component-name="Container"
+    >
+      <div
+        class="css-1xy02bk"
+        data-component-name="Box"
+      >
+        <h6
+          class="css-olwz62"
+          data-component-name="H6"
+        >
+          app footer
+        </h6>
+      </div>
+    </div>
+  </footer>
+</div>
+`;

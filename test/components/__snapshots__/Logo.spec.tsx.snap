@@ -1,0 +1,16 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Logo > should render properly 1`] = `
+<div>
+  <div
+    class="css-29z1qi"
+  >
+    <h3
+      class="css-1accte4"
+      data-component-name="H3"
+    >
+      Some test name
+    </h3>
+  </div>
+</div>
+`;

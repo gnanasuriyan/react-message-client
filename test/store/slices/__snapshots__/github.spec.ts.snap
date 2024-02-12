@@ -1,0 +1,40 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`slices/message > actions > getMessageList 1`] = `
+{
+  "payload": undefined,
+  "type": "message/getMessageList",
+}
+`;
+
+exports[`slices/message > reducer > getMessageList > should handle FAILURE 1`] = `
+{
+  "loadStatus": "running",
+  "messages": [],
+  "postStatus": "idle",
+}
+`;
+
+exports[`slices/message > reducer > getMessageList > should handle REQUEST 1`] = `
+{
+  "loadStatus": "running",
+  "messages": [],
+  "postStatus": "idle",
+}
+`;
+
+exports[`slices/message > reducer > getMessageList > should handle SUCCESS 1`] = `
+{
+  "loadStatus": "running",
+  "messages": [],
+  "postStatus": "idle",
+}
+`;
+
+exports[`slices/message > reducer > should return the initial state 1`] = `
+{
+  "loadStatus": "idle",
+  "messages": [],
+  "postStatus": "idle",
+}
+`;

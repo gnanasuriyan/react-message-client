@@ -1,0 +1,59 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`store > should create a new store 1`] = `
+{
+  "alerts": {
+    "data": [],
+  },
+  "app": {
+    "query": "react",
+  },
+  "message": {
+    "loadStatus": "idle",
+    "messages": [],
+    "postStatus": "idle",
+  },
+  "signup": {
+    "status": "idle",
+  },
+  "user": {
+    "isAuthenticated": false,
+    "status": "idle",
+    "user": {
+      "id": 0,
+      "username": "",
+    },
+  },
+}
+`;
+
+exports[`store > should return the global store 1`] = `
+{
+  "_persist": {
+    "rehydrated": true,
+    "version": -1,
+  },
+  "alerts": {
+    "data": [],
+  },
+  "app": {
+    "query": "react",
+  },
+  "message": {
+    "loadStatus": "idle",
+    "messages": [],
+    "postStatus": "idle",
+  },
+  "signup": {
+    "status": "idle",
+  },
+  "user": {
+    "isAuthenticated": false,
+    "status": "idle",
+    "user": {
+      "id": 0,
+      "username": "",
+    },
+  },
+}
+`;

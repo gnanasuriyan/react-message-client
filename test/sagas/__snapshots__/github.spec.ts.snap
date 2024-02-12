@@ -1,0 +1,52 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`message > should have the expected watchers 1`] = `
+{
+  "fork": [
+    {
+      "@@redux-saga/IO": true,
+      "combinator": false,
+      "payload": {
+        "args": [
+          "message/getMessageList",
+          "@@redux-saga-test-plan/json/function/getMessageListSaga",
+        ],
+        "context": null,
+        "fn": "@@redux-saga-test-plan/json/function/takeLatest",
+      },
+      "type": "FORK",
+    },
+    {
+      "@@redux-saga/IO": true,
+      "combinator": false,
+      "payload": {
+        "args": [
+          "message/postMessage",
+          "@@redux-saga-test-plan/json/function/postMessageSaga",
+        ],
+        "context": null,
+        "fn": "@@redux-saga-test-plan/json/function/takeLatest",
+      },
+      "type": "FORK",
+    },
+  ],
+  "take": [
+    {
+      "@@redux-saga/IO": true,
+      "combinator": false,
+      "payload": {
+        "pattern": "message/getMessageList",
+      },
+      "type": "TAKE",
+    },
+    {
+      "@@redux-saga/IO": true,
+      "combinator": false,
+      "payload": {
+        "pattern": "message/postMessage",
+      },
+      "type": "TAKE",
+    },
+  ],
+}
+`;
